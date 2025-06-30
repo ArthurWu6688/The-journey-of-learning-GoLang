@@ -1,0 +1,2 @@
+当请求 https://baidu.com https://google.com时，会得到百度的响应但由于网络原因导致得不到谷歌的相应，https.Get会一直阻塞等待
+当时间超出一定期限的时候会程序就退出了
